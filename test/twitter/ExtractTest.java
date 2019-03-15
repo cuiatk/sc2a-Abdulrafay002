@@ -40,7 +40,9 @@ public class ExtractTest {
     
     @Test
     public void testGetMentionedUsersNoMention() {
-        assert true;
+        Set<String> mentionedUsers = Extract.getMentionedUsers(Arrays.asList(tweet1));
+        
+        assertTrue("expected empty set", mentionedUsers.isEmpty());
     }
 
     /*
