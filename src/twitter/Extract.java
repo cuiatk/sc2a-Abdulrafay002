@@ -63,8 +63,8 @@ public class Extract {
 			  mentionedUser.add(matcherUser.group());
 		  }
   return mentionedUser;
-    
-    	//    throw new RuntimeException("not implemented");
+    //pattern and matcher syntax are taken from stack overflow.
+
     }
 
 }
